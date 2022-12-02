@@ -1,0 +1,22 @@
+{
+  "name": "simonsays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digimori/SimonSays.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digimori/SimonSays/issues"
+  },
+  "homepage": "https://github.com/digimori/SimonSays#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
