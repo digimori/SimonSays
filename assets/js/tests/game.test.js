@@ -57,6 +57,12 @@ expect(game.currentGame.length).toBe(1);
         test("should display zero for element with the id of score", () => {
             expect(document.getElementById("score").innerText).toEqual(0);
         });
+        test("expect the data-listener on the HTML to be true", () => {
+const elements = document.getElementsByClassName("circle");
+for (element of elements) {
+    expect(element.getAttribute('data-listener')).toEqual('true');
+}
+        })
     });
 
     describe("gameplay works correctly", () => {
